@@ -100,3 +100,13 @@ addToUlLi(iAddText);
 addToUlLi('Test Message');
 addToUlLi('This THE SECONDEST BESTEST aPPEND EVAR');
 addToUlLi('WDI is the greatest');
+
+//Quest 3
+function addHeaderWithText (header,someText) {
+    const addHTags = document.createElement('h' + header);
+    addHTags.innerText = someText;
+    document.querySelector('body').appendChild(addHTags);
+}
+
+addHeaderWithText('3','This is is HEADER ONE FOR ALL TO SEE, MHUA_MHUA_HAHAHAHa')
+
